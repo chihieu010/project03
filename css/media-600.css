@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+body{
+    padding: 20px 5px;
+}
+section div.ellipse-01{
+    display: none;
+}
+section div.ellipse-02{
+    display: none;
+}
+section{
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+section h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+section ul{
+    margin-bottom: 25px;
+    justify-content: center;
+}
+section ul li{
+    margin-right: 6px;
+    border-radius: 5px;
+    padding: 5px;
+}
+section ul li:first-child {
+    margin-left: 6px;
+}
+section div.list-article{
+    display: block
+   
+}
+section div.list-article article div{
+    margin-top: 5px;
+}
+section div.list-article article{
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+section div.list-article article div img{
+    width: calc((100% - 12px)/3);
+ }
+ section div.list-article article div img:nth-child(2) {
+     margin: 0px 5px;
+ }
+ section div.list-article article:nth-child(2) {
+     margin: 25px 0px 0px 0px;
+}
+ section div.list-article article div.meta{
+     justify-content: space-between;
+     font-size: 15px;
+     padding: 0px 5px;
+}
+
+}

@@ -1,0 +1,81 @@
+body{
+    background-color: #D8DAE2;
+    padding: 200px 20px;
+}
+section{
+    background-color: #EFF0F1;
+    border-radius: 26px;
+    padding: 62px;
+    position: relative;
+}
+section h1{
+    margin-bottom: 24px;
+}
+section ul{
+    display: flex;
+    margin-bottom: 56px;
+    
+}
+section ul li{
+    margin-right: 8px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+section div.ellipse-01{
+    background-color: #E5E7F0;
+    position: absolute;
+    width: 310px;
+    height: 294px;
+    border-radius: 50%;
+    right: 300px;
+    top: 0px;
+    transform: translateY(-50%);
+    z-index: -10;
+}
+section div.ellipse-02{
+    background-color: #E5E7F0;
+    position: absolute;
+    width: 433px;
+    height: 410px;
+    border-radius: 50%;
+    bottom: 0px;
+    left: 239px;
+    transform: translateY(50%);
+    z-index: -10;
+}
+section div.list-article{
+    display: flex;
+   
+}
+section div.list-article article div{
+    display: flex;
+    margin-top: 16px;
+}
+section div.list-article article{
+    padding: 24px;
+    background-color: #fff;
+    width: calc((100% - (var(--margin-article)*2))/3);
+    border-radius: 32px;
+}
+section div.list-article article div img{
+   width: calc((100% - 32px)/3);
+}
+section div.list-article article div img:nth-child(2) {
+    margin: 0px 16px;
+}
+section div.list-article article:nth-child(2) {
+    margin: 0px 12px;
+}
+div.list-article article {
+
+}
+section div.list-article article div.meta{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.meta span > i{
+    margin-right: 4px;
+}
